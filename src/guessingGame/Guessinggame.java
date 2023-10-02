@@ -23,9 +23,8 @@ public class Guessinggame {
 				break;
 			}
 			
-			
 			else if(ans.equals("y")) {
-			 	System.out.println("guesse " + tries);
+			 	System.out.println("guess " + tries);
 				break;
 			}
 			else if(ans.equals("n")) {
@@ -34,6 +33,7 @@ public class Guessinggame {
 			
 			else {
 				  System.out.println("Do you want to quit? (y/n)");
+				  
 
 			}
 			
